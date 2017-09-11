@@ -1,0 +1,21 @@
+{
+  "name": "micro-jwt-example",
+  "version": "1.0.0",
+  "description": "Example JWT auth with micro",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "author": "Nick Duncan <me@protosev.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.0.0",
+    "micro": "^8.0.4",
+    "micro-http-router": "^1.2.1",
+    "micro-http-router-jwt": "^1.0.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.2.2"
+  }
+}
